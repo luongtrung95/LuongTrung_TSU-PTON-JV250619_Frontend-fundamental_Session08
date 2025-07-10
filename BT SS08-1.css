@@ -1,0 +1,26 @@
+.flex-container {
+    display: flex;
+    gap: 1px;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    background-color: #add8e6;
+    width: calc(50% - 1px);
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.large {
+    width: calc(100% - 1px);
+}
+
+@media screen {
+    max-width: 1024px;
+    .flex-item {
+        width: calc(100% - 20px);
+    }    
+}
+
+
